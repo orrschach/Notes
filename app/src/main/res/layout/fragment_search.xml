@@ -1,0 +1,85 @@
+S<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchFragment"
+    tools:ignore="MissingClass">
+
+    <Button
+        android:id="@+id/search_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/et_sharp"
+        android:text="翻译"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/et_sharp"
+        android:lines="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/et_sharp"
+        android:text="翻译"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/search_text"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/et_sharp"
+        android:text="保存"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ch_word"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/en_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_text"
+        tools:text="trust" />
+
+    <TextView
+        android:id="@+id/word_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@+id/en_word"
+        tools:layout_editor_absoluteX="30dp"
+        tools:text="v." />
+
+    <TextView
+        android:id="@+id/ch_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@+id/en_word"
+        tools:layout_editor_absoluteX="69dp"
+        tools:text="相信" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

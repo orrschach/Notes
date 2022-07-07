@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:layout_marginBottom="2dp"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/en_w"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/black"
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:text="trust" />
+
+    <TextView
+        android:id="@+id/ch_w"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/black"
+
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:text="v." />
+
+    <TextView
+        android:id="@+id/wd_class"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/black"
+
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:text="信任" />
+</androidx.constraintlayout.widget.ConstraintLayout>
